@@ -13,6 +13,20 @@
   font-size: large;
 }
 
+@media (min-width: 600px) {
+  .Twitter {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .Twitter {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
 .sk-folding-cube {
   margin: 20px auto;
   width: 40px;

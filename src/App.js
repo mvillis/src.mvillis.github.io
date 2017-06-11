@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Timeline } from 'react-twitter-widgets'
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,19 @@ class App extends Component {
         <p className="App-intro">
           Coming soon.
         </p>
+        <div className='Twitter'>
+          <Timeline
+            dataSource={{
+              sourceType: 'profile',
+              screenName: 'mvillis'
+            }}
+            options={{
+              username: 'mvillis',
+              height: '500'
+            }}
+            onLoad={() => console.log('Timeline is loaded!')}
+          />
+      </div>
       </div>
     );
   }
