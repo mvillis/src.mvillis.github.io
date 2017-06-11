@@ -13,7 +13,7 @@ script:
 deploy:
   provider: pages
   local_dir: build
-  repo: mvillis.github.io
+  repo: mvillis/mvillis.github.io
   target_branch: master
   fqdn: www.mikevillis.com
   email: mvillis@gmail.com
