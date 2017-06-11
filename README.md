@@ -1,5 +1,11 @@
 ## Source for www.mikevillis.com
 
+## Build / Deploy
+
+[![Build Status](https://travis-ci.org/mvillis/src.mvillis.github.io.svg?branch=master)](https://travis-ci.org/mvillis/src.mvillis.github.io)
+
+## Extra Info
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
