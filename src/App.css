@@ -6,7 +6,12 @@
   background-color: #222;
   height: 100%;
   padding: 20px;
+  margin-bottom: 50px;
   color: white;
+}
+
+.margin {
+  margin-top: 50px;
 }
 
 .App-intro {
