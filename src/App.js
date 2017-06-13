@@ -3,7 +3,8 @@ import { Card, CardImg, CardText, CardBlock,
   CardTitle, CardSubtitle, Button, Container, Row, Col } from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
 import './App.css';
-import rocket from './spacex-71873.jpg';
+import rocket from './img/spacex-71873.jpg';
+import siteFlow from './img/site_flow.jpg';
 
 class App extends Component {
   render() {
@@ -37,7 +38,17 @@ class App extends Component {
                 </CardBlock>
               </Card>
             </Col>
-            <Col xs={12} md={4}></Col>
+            <Col xs={12} md={4}>
+              <Card>
+                <CardImg top width="100%" src={siteFlow} alt="Pipeline for Github Pages" />
+                <CardBlock>
+                  <CardTitle>Simple React Site with create-react-app, Github pages, Travis CI and CloudFlare</CardTitle>
+                  <CardSubtitle>The foundations of mikevillis.com</CardSubtitle>
+                  <CardText>There’s no shortage of tools and frameworks out there to help you build...</CardText>
+                  <Button href='https://medium.com/bikebytes/simple-react-site-with-create-react-app-github-pages-travis-ci-and-cloudflare-8a859daa881'>Read More</Button>
+                </CardBlock>
+              </Card>
+            </Col>
             <Col xs={12} md={4}></Col>
             <Col xs={12} md={4}></Col>
           </Row>
