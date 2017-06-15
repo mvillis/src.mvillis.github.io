@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBlock,
+import { Card, CardImg, CardText, CardBlock, CardDeck,
   CardTitle, CardSubtitle, Button, Container, Row, Col } from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
 import './App.css';
@@ -27,30 +27,26 @@ class App extends Component {
             <Col><hr /></Col>
           </Row>
           <Row>
-            <Col xs={12} md={4}>
-              <Card>
-                <CardImg top width="100%" src={rocket} alt="Rocket" />
-                <CardBlock>
-                  <CardTitle>First Blog</CardTitle>
-                  <CardSubtitle>Let&apos;s go!</CardSubtitle>
-                  <CardText>I&apos;ve been sitting on mikevillis.com for almost 12 months now. At the time of...</CardText>
-                  <Button href='https://medium.com/bikebytes/launch-55583c4df741'>Read More</Button>
-                </CardBlock>
-              </Card>
-            </Col>
-            <Col xs={12} md={4}>
-              <Card>
-                <CardImg top width="100%" src={siteFlow} alt="Pipeline for Github Pages" />
-                <CardBlock>
-                  <CardTitle>Simple React Site with create-react-app, Github pages, Travis CI and CloudFlare</CardTitle>
-                  <CardSubtitle>The foundations of mikevillis.com</CardSubtitle>
-                  <CardText>There’s no shortage of tools and frameworks out there to help you build...</CardText>
-                  <Button href='https://medium.com/bikebytes/simple-react-site-with-create-react-app-github-pages-travis-ci-and-cloudflare-8a859daa881'>Read More</Button>
-                </CardBlock>
-              </Card>
-            </Col>
-            <Col xs={12} md={4}></Col>
-            <Col xs={12} md={4}></Col>
+              <CardDeck>
+                <Card>
+                  <CardImg top width="100%" src={rocket} alt="Rocket" />
+                  <CardBlock>
+                    <CardTitle>First Blog</CardTitle>
+                    <CardSubtitle>Let&apos;s go!</CardSubtitle>
+                    <CardText>I&apos;ve been sitting on mikevillis.com for almost 12 months now. At the time of...</CardText>
+                    <Button href='https://medium.com/bikebytes/launch-55583c4df741'>Read More</Button>
+                  </CardBlock>
+                </Card>
+                <Card>
+                  <CardImg top width="100%" src={siteFlow} alt="Pipeline for Github Pages" />
+                  <CardBlock>
+                    <CardTitle>Simple React Site with create-react-app, Github pages, Travis CI and CloudFlare</CardTitle>
+                    <CardSubtitle>The foundations of mikevillis.com</CardSubtitle>
+                    <CardText>There’s no shortage of tools and frameworks out there to help you build...</CardText>
+                    <Button href='https://medium.com/bikebytes/simple-react-site-with-create-react-app-github-pages-travis-ci-and-cloudflare-8a859daa881'>Read More</Button>
+                  </CardBlock>
+                </Card>
+              </CardDeck>
           </Row>
           <Row className='margin'>
             <Col><h3>Tweets</h3></Col>
