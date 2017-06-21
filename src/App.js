@@ -3,6 +3,7 @@ import { Card, CardImg, CardText, CardBlock, CardDeck,
   CardTitle, CardSubtitle, Button, Collapse, Container, Jumbotron, Navbar,
   NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
+import Footer from './components/Footer';
 import './App.css';
 import rocket from './img/spacex-71873.jpg';
 import siteFlow from './img/site_flow.jpg';
@@ -89,6 +90,7 @@ class App extends Component {
             </Col>
           </Row>
         </Container>
+        <Footer />
       </div>
     )
   }

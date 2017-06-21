@@ -1,0 +1,13 @@
+.buffer-right {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.buffer-left {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.footer {
+  margin-top: 50px;
+}
