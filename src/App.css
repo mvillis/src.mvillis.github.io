@@ -10,6 +10,13 @@
   color: white;
 }
 
+.jumbo-over {
+  padding: 0.5rem !important;
+  margin-bottom: 2.0rem !important;
+  background-image: url('./img/emile-perron-190221.jpg');
+  background-position: 20% 20%;
+}
+
 .margin {
   margin-top: 50px;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBlock, CardDeck,
-  CardTitle, CardSubtitle, Button, Container, Row, Col } from 'reactstrap';
+  CardTitle, CardSubtitle, Button, Collapse, Container, Jumbotron, Navbar,
+  NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
 import './App.css';
 import rocket from './img/spacex-71873.jpg';
@@ -10,18 +11,34 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <div className="sk-folding-cube">
-            <div className="sk-cube1 sk-cube"></div>
-            <div className="sk-cube2 sk-cube"></div>
-            <div className="sk-cube4 sk-cube"></div>
-            <div className="sk-cube3 sk-cube"></div>
-          </div>
-          <h2>Mike Villis</h2>
-        </div>
+        <div className="container">
+        <Navbar toggleable>
+          <NavbarToggler right />
+          <NavbarBrand href="/">mikevillis</NavbarBrand>
+          <Collapse navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="https://blog.mikevillis.com">Blog</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+        <Jumbotron fluid className="jumbo-over">
+          <Container fluid>
+            <div className="sk-folding-cube">
+              <div className="sk-cube1 sk-cube"></div>
+              <div className="sk-cube2 sk-cube"></div>
+              <div className="sk-cube4 sk-cube"></div>
+              <div className="sk-cube3 sk-cube"></div>
+            </div>
+            <h1>Mike Villis</h1>
+            <p className="lead">Technology Adventures</p>
+          </Container>
+        </Jumbotron>
         <Container>
           <Row>
-            <Col><h3>Blogs</h3></Col>
+            <Col><h3>Recent Activity</h3></Col>
           </Row>
           <Row>
             <Col><hr /></Col>
