@@ -1,8 +1,11 @@
-.buffer-right {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  text-align: right;
+@media (min-width: 768px) {
+  .buffer-right {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
 }
+
 .buffer-left {
   margin-top: 20px;
   margin-bottom: 10px;
