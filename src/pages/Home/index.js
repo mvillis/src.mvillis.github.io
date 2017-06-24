@@ -1,9 +1,7 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 import { Card, CardImg, CardText, CardBlock, CardDeck,
-  CardTitle, CardSubtitle, Button, Collapse, Container, Jumbotron, Navbar,
-  NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
+  CardTitle, CardSubtitle, Button, Container, Jumbotron, Row, Col } from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
-import Footer from '../../components/Footer';
 import './Home.css';
 import rocket from './img/spacex-71873.jpg';
 import siteFlow from './img/site_flow.jpg';
@@ -11,19 +9,6 @@ import siteFlow from './img/site_flow.jpg';
 const Home = (props) => {
   return (
     <div className="App">
-      <div className="container">
-      <Navbar toggleable>
-        <NavbarToggler right />
-        <NavbarBrand href="/">mikevillis</NavbarBrand>
-        <Collapse navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="https://blog.mikevillis.com">Blog</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </div>
       <Jumbotron fluid className="jumbo-over">
         <Container fluid>
           <div className="sk-folding-cube">
@@ -89,7 +74,6 @@ const Home = (props) => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </div>
   )
 }
