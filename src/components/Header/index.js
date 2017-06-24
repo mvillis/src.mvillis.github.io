@@ -8,7 +8,7 @@ const Header = (props) => {
     <Container>
       <Navbar toggleable>
         <NavbarToggler right />
-        <NavbarBrand href="/">mikevillis</NavbarBrand>
+        <NavbarBrand href="/">mikevillis.com</NavbarBrand>
         <Collapse navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
