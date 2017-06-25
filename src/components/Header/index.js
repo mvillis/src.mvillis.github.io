@@ -9,7 +9,7 @@ const Header = (props) => {
     <Container>
       <Navbar toggleable>
         <NavbarToggler right />
-        <NavbarBrand href="/">
+        <NavbarBrand>
           <NavLink exact to='/'>
             mikevillis.com
           </NavLink>
