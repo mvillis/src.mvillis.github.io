@@ -36,6 +36,11 @@ export default class Header extends React.Component {
                   Reading List
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink className="nav-link" to='/about'>
+                  About
+                </NavLink>
+              </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
               <NavItem>

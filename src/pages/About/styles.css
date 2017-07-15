@@ -1,0 +1,15 @@
+.title {
+  margin-top: 2.0rem !important;
+  margin-bottom: 2.0rem !important;
+}
+
+.jumbo-over {
+  padding: 0.5rem !important;
+  margin-bottom: 2.0rem !important;
+  background-image: url('./img/about-back.jpg');
+  background-position: 40% 50%;
+}
+
+h1 {
+  padding-top: 2em;
+}

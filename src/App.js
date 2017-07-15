@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import Home from './pages/Home';
 import ReadingList from './pages/ReadingList';
+import About from './pages/About';
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -15,6 +16,7 @@ class App extends Component {
         <main>
           <Route exact path="/" component={Home} />
           <Route path="/reading" component={ReadingList} />
+          <Route path="/about" component={About} />
         </main>
         <Footer />
       </div>
