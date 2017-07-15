@@ -3,13 +3,18 @@
   margin-bottom: 2.0rem !important;
 }
 
-.jumbo-over-about {
+.jumbo-over-projects {
   padding: 0.5rem !important;
   margin-bottom: 2.0rem !important;
-  background-image: url('./img/about-back.jpg');
-  background-position: 40% 50%;
+  background-image: url('./img/projects-back.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 h1 {
   padding-top: 2em;
+}
+
+.card-custom {
+  margin-bottom: 2em;
 }

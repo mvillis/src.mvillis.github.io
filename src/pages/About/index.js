@@ -5,7 +5,7 @@ import './styles.css';
 const About = (props) => {
   return (
     <div>
-      <Jumbotron fluid className="jumbo-over">
+      <Jumbotron fluid className="jumbo-over-about">
         <Container fluid>
           <h1>Mike Villis</h1>
           <p className="lead">Technology Enthusiast</p>

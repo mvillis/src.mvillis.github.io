@@ -41,6 +41,11 @@ export default class Header extends React.Component {
                   About
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink className="nav-link" to='/projects'>
+                  Projects
+                </NavLink>
+              </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
               <NavItem>
