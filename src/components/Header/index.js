@@ -32,13 +32,13 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink className="nav-link" to='/reading'>
-                  Reading List
+                <NavLink className="nav-link" to='/about'>
+                  About
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to='/about'>
-                  About
+                <NavLink className="nav-link" to='/reading'>
+                  Reading List
                 </NavLink>
               </NavItem>
               <NavItem>

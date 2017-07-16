@@ -8,12 +8,12 @@ const Projects = (props) => {
       <Jumbotron fluid className="jumbo-over-projects">
         <Container fluid>
           <Container>
-            <h1>Projects</h1>
+            <h1 className="header-top">Projects</h1>
           </Container>
         </Container>
       </Jumbotron>
       <Container>
-        <h5 className='card-custom'>A mixed bag of side projects. Mostly driven by the desire to learn something new while also doing something useful :-)</h5>
+        <h5 className='h5-margin'>A mixed bag of side projects. Mostly driven by the desire to learn something new while also doing something useful :-)</h5>
         <Row>
           <Col>
             <Card className='card-custom'>

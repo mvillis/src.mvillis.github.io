@@ -6,10 +6,23 @@
 .jumbo-over-about {
   padding: 0.5rem !important;
   margin-bottom: 2.0rem !important;
-  background-image: url('./img/about-back.jpg');
-  background-position: 40% 50%;
+  background-image: url('./img/about-back2.jpg');
+  background-position: 30% 40%;
+  background-size: cover;
 }
 
-h1 {
-  padding-top: 2em;
+.white-text {
+  color: white !important;
+}
+
+p {
+  font-size: 10pt;
+}
+
+.h5-margin {
+  margin-bottom: 2em;
+}
+
+.card-custom-sml {
+  margin-bottom: 1em;
 }

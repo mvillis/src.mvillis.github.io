@@ -7,14 +7,18 @@
   padding: 0.5rem !important;
   margin-bottom: 2.0rem !important;
   background-image: url('./img/projects-back.jpg');
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
 }
 
-h1 {
+.header-top {
   padding-top: 2em;
 }
 
 .card-custom {
+  margin-bottom: 2em;
+}
+
+.h5-margin {
   margin-bottom: 2em;
 }
