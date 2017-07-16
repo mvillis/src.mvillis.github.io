@@ -21,7 +21,7 @@ const About = (props) => {
                 <CardTitle>Principal Architect - Technology Services - Suncorp</CardTitle>
                 <CardSubtitle>June 2016 - Present</CardSubtitle>
                 <CardText>
-                  <Badge>leadership</Badge> <Badge>TOGAF</Badge> <Badge>digital</Badge>
+                  <Badge>leadership</Badge> <Badge>TOGAF</Badge> <Badge>digital</Badge> <Badge>identity</Badge>
                   <ReadMore>
                     <p>Tech Services offers Business Process and Digital Enablement and DevOps capabilities to Suncorp.
                       As Principal Architect for the department, my responsibility was to ensure the strategic fit and suitability of
