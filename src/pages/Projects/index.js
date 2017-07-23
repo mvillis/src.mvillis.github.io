@@ -20,14 +20,21 @@ const Projects = (props) => {
               <CardBlock>
                 <CardTitle><a href="https://www.tradepad.com.au" target="_blank" rel="noopener noreferrer">tradepad</a></CardTitle>
                 <CardSubtitle>A startup focused on disrupting the real estate industry.</CardSubtitle>
-                <CardText><Badge>react</Badge> <Badge>aws</Badge> <Badge>serverless</Badge></CardText>
+                <CardText><Badge>react</Badge> <Badge>aws</Badge> <Badge>serverless</Badge> <Badge>startup</Badge></CardText>
               </CardBlock>
             </Card>
             <Card className='card-custom'>
               <CardBlock>
                 <CardTitle><a href="https://github.com/mvillis/measure-mate" target="_blank" rel="noopener noreferrer">Measure Mate</a></CardTitle>
                 <CardSubtitle>My first react app. Kicked this one off to help provide a flexible platform to track and manage team maturity assessments. Using Excel is great but I think we can do better.</CardSubtitle>
-                <CardText><Badge>react</Badge> <Badge>django</Badge></CardText>
+                <CardText><Badge>react</Badge> <Badge>django</Badge> <Badge>heroku</Badge> <Badge>open source</Badge></CardText>
+              </CardBlock>
+            </Card>
+            <Card className='card-custom'>
+              <CardBlock>
+                <CardTitle><a href="https://www.meetup.com/Devops-Brisbane/" target="_blank" rel="noopener noreferrer">Brisbane DevOps Meetup</a></CardTitle>
+                <CardSubtitle>Co-Organiser of the Brisbane DevOps meetup. </CardSubtitle>
+                <CardText><Badge>community</Badge> <Badge>devops</Badge></CardText>
               </CardBlock>
             </Card>
             <Card className='card-custom'>
