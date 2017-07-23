@@ -242,6 +242,43 @@ const About = (props) => {
                 </CardText>
               </CardBlock>
             </Card>
+            <div className="spacer" />
+            <h1>Education</h1>
+            <Card className="card-custom-sml">
+              <CardBlock>
+                <CardTitle>University of Southern Qld</CardTitle>
+                <CardSubtitle>Bachelor of Information Technology / Bachelor of Business</CardSubtitle>
+                <CardText>
+                  <ReadMore>
+                    <p>Majors in E-Commerce, IT Management & Marketing</p>
+                  </ReadMore>
+                </CardText>
+              </CardBlock>
+            </Card>
+            <Card className="card-custom-sml">
+              <CardBlock>
+                <CardTitle><a href="https://www.ealearning.com/our-courses/courses/togaf.html">TOGAF (Level I & II)</a></CardTitle>
+                <CardSubtitle>September 2016</CardSubtitle>
+              </CardBlock>
+            </Card>
+            <Card className="card-custom-sml">
+              <CardBlock>
+                <CardTitle><a href="http://alistair.cockburn.us/Agile+Advanced+Masterclass">Advanced Agile Master Class with Alistair Cockburn</a></CardTitle>
+                <CardSubtitle>Feb 2015</CardSubtitle>
+              </CardBlock>
+            </Card>
+            <Card className="card-custom-sml">
+              <CardBlock>
+                <CardTitle><a href="https://aws.amazon.com/training/course-descriptions/architect/">Architecting on AWS</a></CardTitle>
+                <CardSubtitle>September 2013</CardSubtitle>
+              </CardBlock>
+            </Card>
+            <Card className="card-custom-sml">
+              <CardBlock>
+                <CardTitle><a href="https://www.softed.com/course/agile-design-and-architecture">Agile Architecture and Design</a></CardTitle>
+                <CardSubtitle>August 2012</CardSubtitle>
+              </CardBlock>
+            </Card>
           </Col>
           <Col xs="12" md="4">
             <h1>Skills</h1>
