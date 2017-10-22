@@ -18,8 +18,36 @@ const About = (props) => {
             <h1>Experience</h1>
             <Card className="card-custom-sml">
               <CardBlock>
+                <CardTitle>Enterprise Architect - Suncorp</CardTitle>
+                <CardSubtitle>September 2017 - Present</CardSubtitle>
+                <CardText>
+                  <Badge>leadership</Badge> <Badge>TOGAF</Badge> <Badge>api</Badge> <Badge>digital</Badge> <Badge>identity</Badge>
+                  <ReadMore>
+                    <p>With significant investments in Identity and APIs as part of the Suncorp Marketplace transformation,
+                      my work establishing capabilities in these areas has been elevated to the Enterprise level.
+                      This positions sees me leading our domain and digital delivery for our new mobile and web experiences and
+                      providing key architectural advice to our business stakeholders.</p>
+                    <p>
+                      Key initial responsibilities include:
+                      <ul>
+                        <li>Single Sign On (SSO) patterns across multiple customer identities and digital experiences</li>
+                        <li>Mobile authentication and authroisation patterns</li>
+                        <li>Identity Assurance capability uplift</li>
+                        <li>Entitlements / Fine Grain Authorisation for Domains APIs</li>
+                        <li>Data Architecture across customer, digital and identity domains</li>
+                        <li>Platform review and standard-based pattern identification (including the use of standards such as Open ID Connect, OAUTH, FIDO and SCIM, OpenAPI, GraphQL)</li>
+                        <li>Group API Resource modelling and catalogue elaboration (REST, Swagger, Developer Portal)</li>
+                        <li>Group API Governance mechanisms</li>
+                      </ul>
+                    </p>
+                  </ReadMore>
+                </CardText>
+              </CardBlock>
+            </Card>
+            <Card className="card-custom-sml">
+              <CardBlock>
                 <CardTitle>Principal Architect - Technology Services - Suncorp</CardTitle>
-                <CardSubtitle>June 2016 - Present</CardSubtitle>
+                <CardSubtitle>June 2016 - September 2017</CardSubtitle>
                 <CardText>
                   <Badge>leadership</Badge> <Badge>TOGAF</Badge> <Badge>digital</Badge> <Badge>identity</Badge>
                   <ReadMore>
