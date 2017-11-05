@@ -12,7 +12,8 @@ const About = (props) => {
         </Container>
       </Jumbotron>
       <Container>
-        <h5 className='h5-margin'>Experienced Architect with a demonstrated history of working in the financial services industry. Strong engineering professional skilled in Business Process Design, DevOps, Digital API & Identity Integration, IT Strategy, Java and Front End technologies.</h5>
+        <h5>Passionate, customer-focused technology professional with a proven record for DevOps and Digital transformation.</h5>
+        <h5 className='h5-margin'>Promoter of Agile Delivery via Software-as-a-Service, with success in platforms for API, Identity & Access Management, Dev Tools/DevOps and Cloud Migration Enablement.</h5>
         <Row>
           <Col xs="12" md="8">
             <h1>Experience</h1>
@@ -312,8 +313,14 @@ const About = (props) => {
             <h1>Skills</h1>
             <ul>
               <li>
+                <h4>Customer Focus</h4>
+                <p>Connecting with customers, showing true empathy and focusing on aspects beyond technolgy allows me to provide timely, novel and trusted advice in often complex circumstances.
+                  Building long term relationships allows me to improve how product designers, sales engineers, and even early customers work with the engineering teams.
+                </p>
+              </li>
+              <li>
                 <h4>Technical</h4>
-                <p>As a technology generalist I’ve established foundational capabilities in <strong>Java</strong>, <strong>Python</strong> and most recently <strong>JavaScript</strong> in my 10 years in the industry. This has been augmented by significant experience on making software delivery more predictable and productive through the introduction of collaboration tools (<strong>Jira, Confluence, Msft Teams</strong>), build and deployment automation (<strong>Jenkins, Ansible, Chef</strong>) and cloud hosting environment (<strong>AWS</strong>).
+                <p>As a technology generalist I have experience designing and building large scale solutions in <strong>Java</strong>, <strong>Python</strong> and most recently <strong>JavaScript</strong> in my 10 years in the industry. This has been augmented by significant experience on making software delivery more predictable and productive through the introduction of collaboration tools (<strong>Jira, Confluence, Msft Teams</strong>), build and deployment automation (<strong>Jenkins, Ansible, Chef</strong>) and cloud hosting environment (<strong>AWS</strong>).
                   I feel very adept with technology, remain actively <strong>hands on</strong>, can architect across the stack and advocate best practices.
                 </p>
               </li>
@@ -323,12 +330,6 @@ const About = (props) => {
                   My style seeks collaboration however will become assertive to drive timely convergence. I have significant experience helping engineers technically spec, scope, decompose, tackle, & maintain features.
                 </p>
               </li>
-              <li>
-                <h4>Business Bridge</h4>
-                <p>My strong ability to describe technology in simple terms, think on my feet and empathise with business customers allows me to offer timely, trusted advice in often complex circumstances.
-                  Building long term relationships allows me to improve how product designers, sales engineers, and even early customers work with the engineering teams.
-                </p>
-                </li>
               <li>
                 <h4>Domain Understanding</h4>
                 <p>
