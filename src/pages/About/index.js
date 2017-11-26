@@ -12,7 +12,7 @@ const About = (props) => {
         </Container>
       </Jumbotron>
       <Container>
-        <h5>Passionate, customer-focused technology professional with a proven record for DevOps and Digital transformation.</h5>
+        <h5>Passionate, customer-focused technology professional with a proven record for DevOps and Digital Transformation.</h5>
         <h5 className='h5-margin'>Promoter of Agile Delivery via Software-as-a-Service, with success in platforms for API, Identity & Access Management, Dev Tools/DevOps and Cloud Migration Enablement.</h5>
         <Row>
           <Col xs="12" md="8">
@@ -22,23 +22,23 @@ const About = (props) => {
                 <CardTitle>Enterprise Architect - Suncorp</CardTitle>
                 <CardSubtitle>September 2017 - Present</CardSubtitle>
                 <CardText>
-                  <Badge>leadership</Badge> <Badge>TOGAF</Badge> <Badge>api</Badge> <Badge>digital</Badge> <Badge>identity</Badge>
+                  <Badge>leadership</Badge> <Badge>TOGAF</Badge> <Badge>API</Badge> <Badge>digital</Badge> <Badge>identity</Badge>
                   <ReadMore>
-                    <p>With significant investments in Identity and APIs as part of the Suncorp Marketplace transformation,
-                      my work establishing capabilities in these areas has been elevated to the Enterprise level.
-                      This positions sees me leading our domain and digital delivery for our new mobile and web experiences and
-                      providing key architectural advice to our business stakeholders.</p>
+                    <p>My current position focuses on Identity and API transformation across the Enterprise as part of the Marketplace Digital Program.
+                      Collaborating with foundations and domain teams, my work in this initiative involves establishing group wide capabilities for integration into both mobile and web channels.
+                    </p>
                     <p>
-                      Key initial responsibilities include:
+                      Key deliverables include:
                       <ul>
-                        <li>Single Sign On (SSO) patterns across multiple customer identities and digital experiences</li>
-                        <li>Mobile authentication and authroisation patterns</li>
-                        <li>Identity Assurance capability uplift</li>
+                        <li>Single Sign On (SSO) re-usable patterns across multiple customer identities and digital experiences</li>
+                        <li>Mobile authentication and authorisation patterns</li>
+                        <li>Identity Assurance and trust framework</li>
                         <li>Entitlements / Fine Grain Authorisation for Domains APIs</li>
                         <li>Data Architecture across customer, digital and identity domains</li>
                         <li>Platform review and standard-based pattern identification (including the use of standards such as Open ID Connect, OAUTH, FIDO and SCIM, OpenAPI, GraphQL)</li>
                         <li>Group API Resource modelling and catalogue elaboration (REST, Swagger, Developer Portal)</li>
-                        <li>Group API Governance mechanisms</li>
+                        <li>Group API Governance mechanisms for effectiveness and efficiency tracking</li>
+                        <li>API Delivery Pipeline design including testing, quality and automation patterns</li>
                       </ul>
                     </p>
                   </ReadMore>
@@ -56,14 +56,16 @@ const About = (props) => {
                       As Principal Architect for the department, my responsibility was to ensure the strategic fit and suitability of
                       the services to our business goals and needs of the technical delivery teams.</p>
                     <p>
-                      Key focus areas have been the API and Identity Strategy in line with our ongoing digital transformation. This involved:
+                      Key focus areas were the API and Identity Strategy in line with our ongoing digital transformation. Working across this portfolio I applied my formula of:
                       <ul>
-                        <li>developing a capability framework and measurement approach</li>
-                        <li>automating key integration patterns across our shared platforms </li>
+                        <li>developing a capability framework and measurement approach (<a href='https://github.com/mvillis/measure-mate'>Measure Mate</a> was an open source tool I invented to help)</li>
+                        <li>designing and automating key integration patterns across our shared platforms (inspired by cloud providers like AWS)</li>
                         <li>collaborating with technical leaders on standards and governance</li>
-                        <li>creating roadmap aligned with business projects / priorties</li>
+                        <li>Building out for scale and resiliency through the implementation of cloud best practices </li>
+                        <li>creating roadmap aligned with business projects / priorities</li>
                         <li>facilitating cross domain chapters to collaborate with engineers and other tech leaders.</li>
                       </ul>
+                    <p>Across the board this delivered significant improvements in platform stability and time to market for delivery teams.</p>
                     </p>
                     <p>
                       Other areas included the development of Roadmaps, Customer and Project Solution design, Product Advocacy as well as mentoring and developing the architects and tech leads in the department.
@@ -90,10 +92,10 @@ const About = (props) => {
                   <Badge>DevOps</Badge> <Badge>API</Badge> <Badge>AWS</Badge>
                   <ReadMore>
                     <p>
-                      The promotion to the Architect for the BT Services department was recognition of the work I've done with App Dev Tools and its stakeholders with a desire to apply that same recipe to other delivery capabilities. Key growth areas were Identity, APIs as weak as the monitoring and analytics platforms.
+                      The promotion to the Architect for the BT Services department was recognition of the work I did with App Dev Tools and Cloud with a desire to apply that same recipe to other delivery capabilities. Key growth areas were Identity, APIs as weak as the monitoring and analytics platforms.
                     </p>
                     <p>
-                      A key achievement during this tenure was taking on the lead of the API Tribe within the group. A cross-domain collaboration focused around API capability uplift - setting standards, agreeing on roadmap priorities and best practice. As part of this I defined and initiated an uplift to deliver self-service to delivery teams around key strategic API patterns (make easy = right!). This involved investing in careful multi-tenancy design on our Axway platform focusing on security and ease of use by delivery teams. Extracting out key gateway logic into a tested, automated pipeline enabled low risk, fast delivery. This combined with modern security patterns around OAUTH enabled the uplift.
+                      A key achievement during this tenure was taking on the lead of the API Tribe within the group. A cross-domain collaboration focused on API capability uplift - setting standards, agreeing on roadmap priorities and best practice. As part of this I defined and initiated an uplift to deliver self-service to delivery teams around key strategic API patterns (make easy = right!). This involved investing in careful multi-tenancy design on our Axway platform focusing on security and ease of use by delivery teams. Extracting out key gateway logic into a tested, automated pipeline enabled low risk, fast delivery. This combined with modern security patterns around OAUTH enabled the uplift.
                     </p>
                     <p>
                       Together with areas of focus like APIs, this role included continued work to progress our migration to the cloud and well as driving further self-service, best practices and lots of product advocacy with customers and their projects.
@@ -114,28 +116,28 @@ const About = (props) => {
             </Card>
             <Card className="card-custom-sml">
               <CardBlock>
-                <CardTitle>Architect - Application Development Tools - Suncorp</CardTitle>
+                <CardTitle>Architect - Application Development Tools & Cloud Migration - Suncorp</CardTitle>
                 <CardSubtitle>Nov 2013 - Nov 2015</CardSubtitle>
                 <CardText>
-                  <Badge>DevOps</Badge> <Badge>AWS</Badge>
+                  <Badge>DevOps</Badge> <Badge>AWS</Badge> <Badge>Cloud Migration</Badge>
                   <ReadMore>
                     <p>
-                      I joined App Dev Tools at an exciting time as Suncorp was commencing its Cloud journey to AWS. My goal as the Architect was to learn and understand what this meant for our service offering as well as champion cloud best practices and DevOps across the group.
+                      Suncorp commenced an agressive plan to move 2000 Applications to AWS in 18 months. My goal as the Architect was to champion cloud best practices and DevOps across the group as part of this transformation.
                     </p>
-                    <p>
-                      This was definitely a case of listen, learn and adapt and as part of this role I initiated a DevOps Guild across the group - bringing together like minded and key technical folk together. I drove the creation of our Maturity matrix and people capability framework while working with dev teams to understand how our Dev Tools would drive the automation and measurement goals needed. Looking back, the secret to success was successfully sharing capability, embracing divergent problem solving while still converging on a consistent landscape.
-                    </p>
-                    <p>
-                      Key capability areas of focus were config mgmt, continuous integration and deployment, building quality in, security and automation. As shared service providers we tackled this often cultural as much as technical change using the mantra of "Make easy equal right"; delivering capability that was as easy as AWS itself but opinionated towards the best practices we were promoting.
-                    </p>
-                    <p>
-                      While my role was an an architect , this was so much a hands on role - getting in, hands dirty, solving tricky problems with lots of smart and talented people!
-                    </p>
-                    <p>
-                      Primary responsibilities included:
+                    <p>Achievements:
                       <ul>
-                        <li>Product Ownership across enterprise Dev Tools (Atlassian Suite - JIRA, Confluence, Bitbucket, Jenkins, Ansible, Nexus, Sonar, Fortify)</li>
-                        <li>Cloud Migration Strategy (AWS) including use of EC2, EBS, ELBs, Cloudwatch on custom Java and COTS applications</li>
+                        <li>Design and delivery of baseline AWS Account topology, billing and security model.</li>
+                        <li>Creation of Cloud Governance Move Framework together with key risk groups and regulators.</li>
+                        <li>Successfully migrated 2 production websites, BI Analytics and Data Streaming running in the cloud in 3 months - <a href='https://www.itnews.com.au/news/suncorp-in-three-month-cloud-sprint-364108'>Article</a></li>
+                        <li>Founded people capability framework to link program goals with non-technical capability improvements.</li>
+                        <li>Established and ran the community DevOps guild to encourage sharing and convergence on good practices.</li>
+                        <li>Idea lead and organiser of Suncorp&apos;s largest innovation day with 450 people across 5 cities innovating on AWS.</li>
+                      </ul>
+                    </p>
+                    <p>
+                      As architect across Dev Tools my primary responsibilities included:
+                      <ul>
+                        <li>Product Ownership across enterprise Dev Tools that supported Automated on the Cloud (Atlassian Suite - JIRA, Confluence, Bitbucket, Jenkins, Ansible, Nexus, Sonar, Fortify)</li>
                         <li>Design and Implementation of Continuous Delivery Pipelines for group assets.</li>
                       </ul>
                     </p>
@@ -177,7 +179,7 @@ const About = (props) => {
                       Taking the role of Tech Lead role was recognition of my thought leadership and ability to deliver great engineering in an Agile, collaborative environment.
                     </p>
                     <p>
-                      As Tech Lead I was responsible for the technical implementation of a combined workflow/content solution aim at delivering a 100% paperless operation for the lending operations of the Bank. This required developing a solution that matched capability provided by commercial products including IBM FileNet & Kofax with a Drools (Business Rules) engine and a series of Java/Spring Web Services. As Tech Lead my key responsibilities were to establish development standards and engineer funamentals across the team and align delivery to functional and non-functional outcomes. Establishing a declarative business rules shared service for the group covering how they are authored, tested, integrated and deployed was a key highlight.
+                      As Tech Lead I was responsible for the technical implementation of a combined workflow/content solution aim at delivering a 100% paperless operation for the lending operations of the Bank. This required developing a solution that matched capability provided by commercial products including IBM FileNet & Kofax with a Drools (Business Rules) engine and a series of Java/Spring Web Services. As Tech Lead my key responsibilities were to establish development standards and engineer fundamentals across the team and align delivery to functional and non-functional outcomes. Establishing a declarative business rules shared service for the group covering how they are authored, tested, integrated and deployed was a key highlight.
                     </p>
                     <p>
                       I also lead the implementation of a Policy Workflow solution. Delivery involved the analysis, design and implementation of an IBM Case Manager solution. This was supported by a series of Java APIs and Javascript UI widgets covering User Mgmt, Scheduling and Work Allocation, Quality Assurance and Auditing. Key to this delivery was establishing high levels of automation in the way we tested and deployed to achieve regular, reliable delivery to production. Behaviour Driven Development via JBehave was applied to both our Java and Case Manager assets. Deployments Pipelines via Jenkins supported these deliverables.
@@ -262,10 +264,10 @@ const About = (props) => {
                       Over my tenure at McDonalds I ascended through the ranks from Crew person to Shift Manager through my years at high school then university.
                     </p>
                     <p>
-                      McDonald's taught me a lot about people and running a business. If I can convince a temperamental 15 year old to go and clean the rest rooms or turn an unhappy customer experience into something positive, I figure I can face any people challenges that I may face in my future career :-)
+                      McDonald&apos;s taught me a lot about people and running a business. If I can convince a temperamental 15 year old to go and clean the rest rooms or turn an unhappy customer experience into something positive, I figure I can face any people challenges that I may face in my future career :-)
                     </p>
                     <p>
-                      I look back very favourably on my years at McDonalds. Nothing says teamwork like feeding 2 unexpected bus loads of people at 1am. This ability to smile and be collectively amazing through adversity is something that remains with me and I'm so thankful for.
+                      I look back very favourably on my years at McDonalds. Nothing says teamwork like feeding 2 unexpected bus loads of people at 1am. This ability to smile and be collectively amazing through adversity is something that remains with me and I&apos;m so thankful for.
                     </p>
                   </ReadMore>
                 </CardText>
@@ -286,20 +288,20 @@ const About = (props) => {
             </Card>
             <Card className="card-custom-sml">
               <CardBlock>
-                <CardTitle><a href="https://www.ealearning.com/our-courses/courses/togaf.html">TOGAF (Level I & II)</a></CardTitle>
-                <CardSubtitle>September 2016</CardSubtitle>
+                <CardTitle><a href="https://aws.amazon.com/training/course-descriptions/architect/">AWS Certified Solution Architect – Associate</a></CardTitle>
+                <CardSubtitle>November 2017</CardSubtitle>
+              </CardBlock>
+            </Card>
+            <Card className="card-custom-sml">
+              <CardBlock>
+                <CardTitle><a href="https://togaf9-cert.opengroup.org/certification-listing/hj5l">TOGAF (Level I & II) Certified</a></CardTitle>
+                <CardSubtitle>September 2017</CardSubtitle>
               </CardBlock>
             </Card>
             <Card className="card-custom-sml">
               <CardBlock>
                 <CardTitle><a href="http://alistair.cockburn.us/Agile+Advanced+Masterclass">Advanced Agile Master Class with Alistair Cockburn</a></CardTitle>
                 <CardSubtitle>Feb 2015</CardSubtitle>
-              </CardBlock>
-            </Card>
-            <Card className="card-custom-sml">
-              <CardBlock>
-                <CardTitle><a href="https://aws.amazon.com/training/course-descriptions/architect/">Architecting on AWS</a></CardTitle>
-                <CardSubtitle>September 2013</CardSubtitle>
               </CardBlock>
             </Card>
             <Card className="card-custom-sml">
@@ -314,7 +316,7 @@ const About = (props) => {
             <ul>
               <li>
                 <h4>Customer Focus</h4>
-                <p>Connecting with customers, showing true empathy and focusing on aspects beyond technolgy allows me to provide timely, novel and trusted advice in often complex circumstances.
+                <p>Connecting with customers, showing true empathy and focusing on aspects beyond technology allows me to provide timely, novel and trusted advice in often complex circumstances.
                   Building long term relationships allows me to improve how product designers, sales engineers, and even early customers work with the engineering teams.
                 </p>
               </li>
@@ -347,7 +349,7 @@ const About = (props) => {
                 <p>
                   Having worked closely with the Executive Manager for a department of over 100 people, creating an environment of highly engaged and enabled engineers was no easy feat.
                   <ul>
-                    <li>Attracting, recuiting and keeping talent</li>
+                    <li>Attracting, recruiting and keeping talent</li>
                     <li>Mentoring and helping junior staff and find opportunities for the them to grow.</li>
                       <li>Financial Planning / Supply Demand Analysis</li>
                     <li>Advocating engineering excelling outside of the company (AWS Warriors, Brisbane DevOps Meeting)</li>
